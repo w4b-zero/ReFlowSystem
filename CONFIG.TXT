@@ -1,0 +1,9 @@
+// *** Configfile for ReFlowServer ***
+wlanmode = ap; 			// ap/station
+apwifissid = reflowserver;		// ssid for Accesspoint
+apwifipass = 12345678;			// password for Accesspoint
+wifissid = ;	// ssid of your Router
+wifipass = ;		// passwort of your Router
+debugmode = 0;				// Debugmode 0/1 = 0 for curvefile or 1 for dcurvefile  
+curvefile = CURVE.TXT;			// ReFlow Temp File
+dcurvefile = DCURVE.TXT;		// Debugmode ReFlow Temp File
