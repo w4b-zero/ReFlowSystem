@@ -1,7 +1,8 @@
 # ReFlowSystem
 ReFlowSystem with Display 
 
-HOT PLATE CODE - base source from My Circuits 2023, SD comunication is based on code of David Bird 2018
+HOT PLATE CODE - base source from My Circuits 2023, SD comunication is based on code of David Bird 2018<br>
+( https://www.instructables.com/The-Ultimate-DIY-Hot-Plate-Powered-by-ESP32-and-IR/ )<br>
 
     
  Upgrades by zeroTM - https://github.com/w4b-zero<br>
