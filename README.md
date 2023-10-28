@@ -2,36 +2,38 @@
 ReFlowSystem with Display 
 
 HOT PLATE CODE - base source from My Circuits 2023, SD comunication is based on code of David Bird 2018
+
     
- Upgrades by zeroTM - https://github.com/w4b-zero
- SD + Configfile CONFIG.TXT (if not on SD=auto create configfile)
- SD + Second Curve Temp File (for Debugmode)
-
- +SSD1306 Status and infos
-
- WebServer + Activ-Status
- WebServer + ask before delete File
- WebServer + editable Configfile
- WebServer + stop running ReFlow
- WebServer + System Restart
-
- +Configfile AccessPoint or Stationmode
- +Configfile APssid/APpassword STAssid/STApassword
- +Configfile Debugmode On/Off (to use second Curve Temp File!)
- +Configfile CURVE.TXT DCURVE.TXT
-
- Default Config:
- Wlanmode = AccessPoint
- APssid = reflowserver
- APpassword = 12345678
-
- USE MAX6675 Temp Sensor!
+ Upgrades by zeroTM - https://github.com/w4b-zero<br>
  
- Requiered libraries:
- 
- ESP32WebServer - https://github.com/Pedroalbuquerque/ESP32WebServer download and place in your Libraries folder
- SSD1306 - Adafruit_SSD1306 + Adafruit_GFX Arduino-Library
- MAX6675 - GyverMAX6675 Arduino-Library
+ SD + Configfile CONFIG.TXT (if not on SD=auto create configfile!)<br>
+ SD + Second Curve Temp File (for Debugmode)<br>
+
+ +SSD1306 Status and infos<br>
+
+ WebServer + Activ-Status<br>
+ WebServer + ask before delete File<br>
+ WebServer + editable Configfile<br>
+ WebServer + stop running ReFlow<br>
+ WebServer + System Restart<br>
+
+ +Configfile AccessPoint or Stationmode<br>
+ +Configfile APssid/APpassword STAssid/STApassword<br>
+ +Configfile Debugmode On/Off (to use second Curve Temp File!)<br>
+ +Configfile CURVE.TXT DCURVE.TXT<br>
+
+ Default Config:<br>
+ Wlanmode = AccessPoint<br>
+ APssid = reflowserver<br>
+ APpassword = 12345678<br>
+
+ USE MAX6675 Temp Sensor!<br>
+
+ Requiered libraries:<br>
+
+ ESP32WebServer - https://github.com/Pedroalbuquerque/ESP32WebServer download and place in your Libraries folder<br>
+ SSD1306 - Adafruit_SSD1306 + Adafruit_GFX Arduino-Library<br>
+ MAX6675 - GyverMAX6675 Arduino-Library<br>
 
  ************************
  * Original Source Info *
