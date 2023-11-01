@@ -1,22 +1,24 @@
 # ReFlowSystem
-ReFlowSystem with Display 
+ReFlowSystem with Display, Webserver control and FTP Server
 
 HOT PLATE CODE - base source from My Circuits 2023, SD comunication is based on code of David Bird 2018<br>
 ( https://www.instructables.com/The-Ultimate-DIY-Hot-Plate-Powered-by-ESP32-and-IR/ )<br>
 
     
- Upgrades by zeroTM - https://github.com/w4b-zero<br>
- 
- SD + Configfile CONFIG.TXT (if not on SD=auto create configfile!)<br>
+  Upgrades by zeroTM - https://github.com/w4b-zero<br>
+ SD + Configfile CONFIG.TXT (if not on SD=auto create configfile)<br>
  SD + Second Curve Temp File (for Debugmode)<br>
+ SD + data Folder with HTML temlplate files (please copy on SD or transfere with FTP!!!)<br>
 
+ +FTP Server (user: esp32 pass:esp32)<br>
  +SSD1306 Status and infos<br>
 
- WebServer + Activ-Status<br>
+ WebServer + Realtime Status (temp, running or not, relay status, Plate Hot or Cold)<br>
  WebServer + ask before delete File<br>
  WebServer + editable Configfile<br>
  WebServer + stop running ReFlow<br>
  WebServer + System Restart<br>
+ WebServer - File upload<br>
 
  +Configfile AccessPoint or Stationmode<br>
  +Configfile APssid/APpassword STAssid/STApassword<br>
@@ -29,12 +31,13 @@ HOT PLATE CODE - base source from My Circuits 2023, SD comunication is based on 
  APpassword = 12345678<br>
 
  USE MAX6675 Temp Sensor!<br>
-
  Requiered libraries:<br>
-
- ESP32WebServer - https://github.com/Pedroalbuquerque/ESP32WebServer download and place in your Libraries folder<br>
+ 
+ USE standart Espressif webserver library<br>
  SSD1306 - Adafruit_SSD1306 + Adafruit_GFX Arduino-Library<br>
  MAX6675 - GyverMAX6675 Arduino-Library<br>
+ SimpleFTPServer - Arduino library<br>
+
 
  ************************
  * Original Source Info *
